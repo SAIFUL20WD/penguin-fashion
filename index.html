@@ -4,11 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Hello Penguin</h1>
+
+    <header class="header-bg">
+        <!--Bootstrap Navbar Component Start-->
+        <nav class="container navbar navbar-expand-lg navbar-light p-4">
+            <div class="container-fluid">
+              <img class="logo" src="images/logo-icon/logo.png" alt="Logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Bootstrap Navbar Component End-->
+
+          <!--Top Section Start-->
+          <section class="container pb-5">
+              <div class="row d-flex align-items-center justify-content-between flex-lg-row flex-sm-column-reverse">
+                  <div class="col-lg-5 mb-5">
+                    <img class="img-fluid" src="images/shoes/banner-shoe.png" alt="Banner Shoe">
+                  </div>
+                  <div class="col-lg-5 pt-5">
+                    <h1><span class="text-orange">NIKE REACT</span><br> INFINITY RUN 2</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                  </div>
+              </div>
+          </section>
+          <!--Top Section End-->
+    </header>
+
+    <main>
+      <!--Casual Shoes Section Start-->
+        <section class="container mt-5">
+            <h1 class="text-lg-start text-sm-center">CASUAL SHOES</h1>
+
+              <!--Bootstrap Card Group Component Start-->
+              <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
+                <div class="col"><!--Single Card Start-->
+                  <div class="card h-100 penguin-card">
+                    <div class="penguin-card-top">
+                        <img src="images/shoes/sports-1.png" class="card-img-top" alt="Shoe Image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Nike Shoe</h5>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                        <h3 class="text-orange">$234</h3>
+                        <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                    </div>
+                  </div>
+                </div><!--Single Card End-->
+
+                <div class="col"><!--Single Card Start-->
+                  <div class="card h-100 penguin-card">
+                    <div class="penguin-card-top">
+                        <img src="images/shoes/sports-2.png" class="card-img-top" alt="Shoe Image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sneakers Skate Shoe</h5>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                      <h3 class="text-orange">$234</h3>
+                      <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                    </div>
+                  </div>
+                </div><!--Single Card End-->
+
+                <div class="col"><!--Single Card Start-->
+                  <div class="card h-100 penguin-card">
+                    <div class="penguin-card-top">
+                        <img src="images/shoes/sports-3.png" class="card-img-top " alt="Shoe Image">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Sneakers Basketball shoe</h5>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                      <h3 class="text-orange">$234</h3>
+                      <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                    </div>
+                  </div>
+                </div><!--Single Card End-->
+
+              </div>
+              <!--Bootstrap Card Group Component End-->
+        </section>
+        <!--Casual Shoes Section End-->
+        
+        <!--Formal Shoes Section Start-->
+        <section class="container mt-5">
+          <h1 class="text-sm-center text-lg-start">FORMAL SHOES</h1>
+
+          <!--Bootstrap Card Group Component Start-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
+              <div class="col"><!--Single Card Start-->
+                <div class="card h-100 penguin-card">
+                  <div class="penguin-card-top">
+                      <img src="images/shoes/formal-1.png" class="card-img-top " alt="Shoe Image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Prestige High-Cut Leather</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                    <h3 class="text-orange">$234</h3>
+                    <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                  </div>
+                </div>
+              </div><!--Single Card End-->
+
+              <div class="col"><!--Single Card Start-->
+                <div class="card h-100 penguin-card">
+                  <div class="penguin-card-top">
+                      <img src="images/shoes/formal-2.png" class="card-img-top" alt="Shoe Image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Slip-On Formal Shoe </h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                    <h3 class="text-orange">$234</h3>
+                    <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                  </div>
+                </div>
+              </div><!--Single Card End-->
+
+              <div class="col"><!--Single Card Start-->
+                <div class="card h-100 penguin-card">
+                  <div class="penguin-card-top">
+                      <img src="images/shoes/formal-3.png" class="card-img-top " alt="Shoe Image">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Slip-On Formal Shoe</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  </div>
+                  <div class="card-footer d-flex flex-lg-row flex-md-column flex-sm-row align-items-center justify-content-between penguin-card-bottom">
+                    <h3 class="text-orange">$234</h3>
+                    <button class="btn btn-gradient"><img class="btn-cart-icon" src="images/logo-icon/shopping-cart-icon.png" alt="icon"> BUY NOW</button>
+                  </div>
+                </div>
+              </div><!--Single Card End-->
+
+            </div>
+            <!--Bootstrap Card Group Component End-->
+      </section>
+      <!--Formal Shoes Section End-->
+
+      <!--Service Section Start-->
+      <section class="container mt-5">
+
+        <div class="row g-2 pt-5 flex-lg-row flex-sm-column-reverse">
+
+          <div class="col-lg-5 col-sm-12">
+            <div class="support col-sm-12 d-flex align-items-center justify-content-between flex-lg-row flex-sm-column text-sm-center text-lg-start">
+              <img src="images/logo-icon/find-perfect-fit.png" alt="">
+              <div class="ms-4 pt-3">
+                <h5>Find the Perfect Fit</h5>
+                <p>Everybody is different, which is why we offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="support col-sm-12 d-flex align-items-center justify-content-between flex-lg-row flex-sm-column text-sm-center text-lg-start">
+              <img src="images/logo-icon/free-exchange.png" alt="">
+              <div class="ms-4 pt-3">
+                <h5>Free Exchanges</h5>
+                <p>One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+            <div class="support col-sm-12 d-flex align-items-center justify-content-between flex-lg-row flex-sm-column text-sm-center text-lg-start">
+              <img src="images/logo-icon/contact-seller.png" alt="">
+              <div class="ms-4 pt-3">
+                <h5>Contact Our Seller</h5>
+                <p>They are here to help you. That's quite literally what we pay them for.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-sm-12 p-5">
+              <img class="img-fluid" src="images/logo-icon/illustration.png" alt="">
+          </div>
+
+        </div>
+
+      </section>
+      <!--Service Section End-->
+    </main>
+    
+    <!--Subscribe Section Start-->
+    <section class="container d-flex align-items-center justify-content-center p-5 mt-5 subscribe-bg">
+      <div class="text-center">
+        <h3>Keep In Touch</h3>
+        <h5>Sign Up Now To Receive Exclusive Offers, Updates, Events And Information!</h5>
+        <input type="email" placeholder="Enter Your Email Address">
+        <br>
+        <button class="btn btn-gradient mt-3">Subscribe Now</button>
+      </div>
+    </section>
+    <!--Subscribe Section End-->
+
+    <footer class="container text-center mt-5">
+      <p><small>PENGUIN FASHION © 2021 | ALL RIGHTS RESERVED.</small></p>
+    </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
